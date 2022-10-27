@@ -1,0 +1,57 @@
+Job seeker
+	Register
+		Goes back to register/login once done
+	Login
+		View my profile
+			Work experience
+			Strengths
+			Return to main menu
+		Update profile
+			Modify work experience
+			Modify strengths
+			Return to main menu
+		Browse through open jobs
+			View Job Listings
+				View Details of Specific Job
+					Return to Job Listings
+			Search Jobs by Keyword
+				View Details of Specific Job
+					Return to Job Listings
+			Return to main menu
+		track status of applied jobs
+			Shows past applications, view with job name
+				return to track status menu
+			Return to main menu
+		Sign out
+			Just redirects to login
+		Delete acct
+			Removes job seeker from job seeker data structure 
+
+Employer
+	Register
+		Once account successfully made goes back to previous menu (register/login)
+	Login
+		Create a new job post
+			Gets location and title, if successful returns to main menu
+		View list of posted jobs
+			View job openings posted
+				return to posted jobs menu
+			View job applications
+				return to posted jobs menu
+			Return to main menu
+		Update job post details
+			View/Modify job openings posted
+				return to posted jobs menu
+		Browse through all job seekers
+			View list of job seekers
+				View user profile
+			Search job seekers
+				view user profile
+		Sign out
+			Return to register/login loop
+		Delete account
+			removes acct from data structure, then returns to register/login loop
+
+
+
+
